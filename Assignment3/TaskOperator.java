@@ -138,8 +138,36 @@ class TaskOperator {
        task_list[i] = new Task(999, " ", " ", " ");
        System.out.println("Success!");
     }
+    void search_task(){
+        if (task_list[0] == null) {
+            System.out.println("Please input tasks first.");
+            return;
+        }
 
-
+        System.out.println("Please select how you want to search:");
+        System.out.println("1. search for title;");
+        System.out.println("2. Search for assigned user;");
+        Scanner scanner = new Scanner(System.in);
+        int i = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Please input search content:");
+        String content = scanner.nextLine();
+        System.out.println("Search result:");
+        if (i == 1){
+            for (Task task : task_list){
+                if(task.taskTitle.equals(content)){
+                    print_task(task);
+                }
+            }
+        }else{
+            for (Task task : task_list){
+                if(task.assignedTo.equals(content)){
+                    print_task(task);
+                }
+            }
+        }
+        
+    }
 
 } 
  

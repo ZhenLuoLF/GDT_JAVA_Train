@@ -26,6 +26,7 @@
              System.out.println("3. Print repeated tasks.");
              System.out.println("4. Update task.");
              System.out.println("5. Delete task.");
+             System.out.println("6. Search task.");
              System.out.println("0. Close the application.");
 
              int action = scanner.nextInt();
@@ -44,6 +45,9 @@
                     break;
                  case 5:
                     top.delete_task();
+                    break;
+                 case 6:
+                    top.search_task();
                     break;
                  case 0:
                      flag = false;
