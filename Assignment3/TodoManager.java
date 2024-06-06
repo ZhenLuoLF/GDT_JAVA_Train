@@ -11,7 +11,7 @@
 
      public static void main(String[] args) {
         //  TodoManager tdm = new TodoManager();
-        TaskOperator top = new TaskOperator();
+        TaskDAO top = new TaskDAO();
  
          Scanner scanner = new Scanner(System.in);
          System.out.println("Please enter your name");
