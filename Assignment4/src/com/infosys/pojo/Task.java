@@ -1,4 +1,4 @@
-package GDT_JAVA_Train.Assignment5.src.com.infosys.pojo;
+package GDT_JAVA_Train.Assignment4.src.com.infosys.pojo;
 
 public class Task {
 

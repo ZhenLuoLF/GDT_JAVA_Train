@@ -1,8 +1,8 @@
-package GDT_JAVA_Train.Assignment5.src.com.infosys.dao;
+package GDT_JAVA_Train.Assignment4.src.com.infosys.dao;
 
 import java.util.ArrayList;
 
-import GDT_JAVA_Train.Assignment5.src.com.infosys.pojo.User;
+import GDT_JAVA_Train.Assignment4.src.com.infosys.pojo.User;
 
 public class UserDAO {
     private ArrayList<User> userList = new ArrayList<User>();

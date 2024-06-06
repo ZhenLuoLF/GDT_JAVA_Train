@@ -1,8 +1,8 @@
-package GDT_JAVA_Train.Assignment5.src.com.infosys.service;
+package GDT_JAVA_Train.Assignment4.src.com.infosys.service;
 import java.util.Scanner;
 
-import GDT_JAVA_Train.Assignment5.src.com.infosys.dao.UserDAO;
-import GDT_JAVA_Train.Assignment5.src.com.infosys.pojo.User;
+import GDT_JAVA_Train.Assignment4.src.com.infosys.dao.UserDAO;
+import GDT_JAVA_Train.Assignment4.src.com.infosys.pojo.User;
 public class UserService {
     private UserDAO uda = new UserDAO();
 

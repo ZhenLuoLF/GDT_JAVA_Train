@@ -1,9 +1,9 @@
-package GDT_JAVA_Train.Assignment5.src.com.infosys.controller;
+package GDT_JAVA_Train.Assignment4.src.com.infosys.controller;
 
 import java.util.Scanner;
 
-import GDT_JAVA_Train.Assignment5.src.com.infosys.pojo.User;
-import GDT_JAVA_Train.Assignment5.src.com.infosys.service.*;
+import GDT_JAVA_Train.Assignment4.src.com.infosys.pojo.User;
+import GDT_JAVA_Train.Assignment4.src.com.infosys.service.*;
 
 class TodoManager {
       public static void main(String[] args) {

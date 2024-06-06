@@ -1,10 +1,10 @@
-package GDT_JAVA_Train.Assignment5.src.com.infosys.dao;
+package GDT_JAVA_Train.Assignment4.src.com.infosys.dao;
 
 import java.util.Scanner;
 import java.util.Comparator;
 import java.util.Arrays;
 import java.util.ArrayList;
-import GDT_JAVA_Train.Assignment5.src.com.infosys.pojo.*;
+import GDT_JAVA_Train.Assignment4.src.com.infosys.pojo.*;
 
 public class TaskDAO {
 
