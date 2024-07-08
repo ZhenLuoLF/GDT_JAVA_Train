@@ -1,15 +1,14 @@
 package com.jukebox.dao;
 
-import com.jukebox.pojo.PlayList;
+import com.jukebox.models.Audio;
+import com.jukebox.models.PlayList;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PlayListDao {
     private List<PlayList> playlists;
-    public PlayListDao() {
-        playlists = new ArrayList<>();
-    }
+    public PlayListDao() { playlists = new ArrayList<>(); }
     public List<PlayList> getPlaylists() {
         return playlists;
     }
@@ -40,6 +39,13 @@ public class PlayListDao {
             }
         }
         return playlist;
+    }
+
+    public static void printPlaylist(PlayList playlist) {
+        for(Audio audio : playlist.getList()){
+            System.out.println(audio);
+        }
+
     }
 
 }

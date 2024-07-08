@@ -1,10 +1,10 @@
 package com.jukebox.dao;
 
-import com.jukebox.pojo.Song;
+
+import com.jukebox.models.Song;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class SongDao {
     private List<Song> songs = new ArrayList<>();
@@ -40,5 +40,9 @@ public class SongDao {
             }
         }
         return song;
+    }
+
+    public void save(Song song) {
+        songs.add(song);
     }
 }

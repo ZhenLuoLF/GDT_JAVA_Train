@@ -1,4 +1,5 @@
-package com.jukebox.pojo;
+package com.jukebox.models;
+
 
 public class Song extends Audio {
     private String artist;
@@ -24,7 +25,14 @@ public class Song extends Audio {
         this.genre = genre;
     }
 
-    public Song() {
-
+    public Song(int id, String title, String artist, String album, String genre){
+        super(id, title);
+        this.artist = artist;
+        this.album = album;
+        this.genre = genre;
+    }
+    @Override
+    public String toString(){
+        return super.toString() + " - " + artist + " - " + album + " - " + genre;
     }
 }

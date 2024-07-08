@@ -1,4 +1,4 @@
-package com.jukebox.pojo;
+package com.jukebox.models;
 
 import java.util.List;
 
@@ -31,4 +31,12 @@ public class PlayList {
         this.list = list;
         this.title = title;
     }
+    public void addAudio(Audio audio) {
+        list.add(audio);
+    }
+    @Override
+    public String toString() {
+        return "PlayList: " + title;
+    }
+
 }

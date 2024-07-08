@@ -1,6 +1,6 @@
 package com.jukebox.dao;
 
-import com.jukebox.pojo.Podcast;
+import com.jukebox.models.Podcast;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -38,6 +38,13 @@ public class PodcastDao {
             }
         }
         return podcast;
+    }
+    public List<Podcast> getAllPodcasts() {
+        return podcastList;
+    }
+
+    public void save(Podcast podcast) {
+        podcastList.add(podcast);
     }
 
 }

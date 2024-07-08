@@ -1,4 +1,4 @@
-package com.jukebox.pojo;
+package com.jukebox.models;
 
 
 
@@ -17,5 +17,14 @@ public abstract class Audio {
     }
     public void setId(int id) {
         this.id = id;
+    }
+
+    public Audio(int id, String title) {
+        this.id = id;
+        this.title = title;
+    }
+    @Override
+    public String toString() {
+        return title;
     }
 }
